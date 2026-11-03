@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/public/*"
+  to = "https://koya-clinic-booking-xuvw.onrender.com/public/:splat"
+  status = 200
