@@ -20,7 +20,7 @@ function requireApiKey(req, res, next) {
   next()
 }
 
-const PORT = process.env.PORT ||
+const PORT = process.env.PORT || 5000
 
 app.post("/reset",requireApiKey, async (req, res) => {
   const { slots } = req.body
